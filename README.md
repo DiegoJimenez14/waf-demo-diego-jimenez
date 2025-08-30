@@ -19,33 +19,27 @@ Está orientado a cumplir buenas prácticas de **seguridad y cumplimiento normat
 
 
 
-- **Terraform\*\* para IaC (Infrastructure as Code).
+- **Terraform** para IaC (Infrastructure as Code).
 
 - **AWS WAFv2** con Web ACL para **CloudFront**.
 
 - **CloudWatch Logs** para centralizar y auditar registros.
 
 - **Reglas administradas de AWS**:
-
-&nbsp; - Common Rule Set (protección general).
-
-&nbsp; - Known Bad Inputs.
-
-&nbsp; - IP Reputation List.
-
-&nbsp; - Anonymous IP List.
-
-&nbsp; - SQL Injection (SQLi).
-
-&nbsp; - Cross-Site Scripting (XSS).
+- &nbsp; - Common Rule Set (protección general).
+- &nbsp; - Known Bad Inputs.
+- &nbsp; - IP Reputation List.
+- &nbsp; - Anonymous IP List.
+- &nbsp; - SQL Injection (SQLi).
+- &nbsp; - Cross-Site Scripting (XSS).
 
 - **Controles adicionales**:
 
-&nbsp; - CAPTCHA en rutas críticas (`/login`, `/signup`, `/checkout`).
+- &nbsp; - CAPTCHA en rutas críticas (`/login`, `/signup`, `/checkout`).
 
-&nbsp; - Rate limiting por IP.
+- &nbsp; - Rate limiting por IP.
 
-&nbsp; - Logging con \*\*redacción de cabeceras sensibles\*\* (cookies y authorization).
+- &nbsp; - Logging con **redacción de cabeceras sensibles** (cookies y authorization).
 
 
 
@@ -111,7 +105,7 @@ Este proyecto no es solo un despliegue técnico, sino un **ejemplo práctico de 
 
 - 📊 **Visibilidad y auditoría**:  
 
-&nbsp; Todos los eventos quedan registrados en \*\*CloudWatch Logs\*\*, con redacción de datos sensibles (`authorization`, `cookie`), alineado con \*\*PCI-DSS\*\*.  
+&nbsp; Todos los eventos quedan registrados en **CloudWatch Logs**, con redacción de datos sensibles (`authorization`, `cookie`), alineado con **PCI-DSS**.  
 
 
 - 📈 **Cumplimiento normativo**:  
@@ -131,9 +125,6 @@ Un analista que implementa este WAF garantiza que el e-commerce:
 - **Cumple con estándares de seguridad** requeridos para manejar pagos.  
 - **Escala fácilmente** sin perder visibilidad ni control de seguridad.  
 
-
-
-Este proyecto demuestra experiencia en **Cloud Security, IaC y cumplimiento** aplicada a un caso real de negocio.  
 
 
 
