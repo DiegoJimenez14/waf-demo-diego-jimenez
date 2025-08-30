@@ -69,8 +69,6 @@ Está orientado a cumplir buenas prácticas de **seguridad y cumplimiento normat
 
 Clonar el repositorio:
 
-```bash
-
 git clone https://github.com/DiegoJimenez14/waf-demo-diego-jimenez.git
 
 cd waf-demo-diego-jimenez/infra
@@ -110,4 +108,3 @@ Un analista que implementa este WAF garantiza que el e-commerce:
 - **Escala fácilmente** sin perder visibilidad ni control de seguridad.  
 
 Este proyecto demuestra experiencia en **Cloud Security, IaC y cumplimiento** aplicada a un caso real de negocio.
-
