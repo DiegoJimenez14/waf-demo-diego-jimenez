@@ -13,8 +13,9 @@ Está orientado a cumplir buenas prácticas de **seguridad y cumplimiento normat
 ## 🚀 Arquitectura
 
 ## 📊 Diagrama de Arquitectura
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1683b507-117d-4b4c-a1c9-cf928e03da1b" />
 
-![AWS WAF Architecture](./infra/assets/waf-architecture.png)
+
 
 
 
@@ -84,7 +85,7 @@ cd waf-demo-diego-jimenez/infra
 ---
 
 ## ⚡ Cómo este WAF protege un e-commerce real
-Este proyecto no es solo un despliegue técnico, sino un \*\*ejemplo práctico de cómo asegurar una plataforma de e-commerce en AWS\*\*:
+Este proyecto no es solo un despliegue técnico, sino un **ejemplo práctico de cómo asegurar una plataforma de e-commerce en AWS**:
 - 🛡️ **Protección contra OWASP Top 10**:  
 
 &nbsp; - SQL Injection → bloqueado por `AWSManagedRulesSQLiRuleSet`.  
@@ -126,9 +127,9 @@ Este proyecto no es solo un despliegue técnico, sino un \*\*ejemplo práctico d
 
 
 Un analista que implementa este WAF garantiza que el e-commerce:  
-- \*\*Reduce el riesgo\*\* de ataques que afectan ventas y reputación.  
-- \*\*Cumple con estándares de seguridad\*\* requeridos para manejar pagos.  
-- \*\*Escala fácilmente\*\* sin perder visibilidad ni control de seguridad.  
+- **Reduce el riesgo** de ataques que afectan ventas y reputación.  
+- **Cumple con estándares de seguridad** requeridos para manejar pagos.  
+- **Escala fácilmente** sin perder visibilidad ni control de seguridad.  
 
 
 
