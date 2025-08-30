@@ -75,58 +75,39 @@ git clone https://github.com/DiegoJimenez14/waf-demo-diego-jimenez.git
 
 cd waf-demo-diego-jimenez/infra
 
-
 ---
 
-## ⚡ Cómo este WAF protege un e-commerce real
+## 📚 Caso de Uso: E-commerce protegido con AWS WAF
+
 Este proyecto no es solo un despliegue técnico, sino un **ejemplo práctico de cómo asegurar una plataforma de e-commerce en AWS**:
+
 - 🛡️ **Protección contra OWASP Top 10**:  
-
-&nbsp; - SQL Injection → bloqueado por `AWSManagedRulesSQLiRuleSet`.  
-
-&nbsp; - Cross-Site Scripting → bloqueado por `AWSManagedRulesCrossSiteScriptingRuleSet`.  
-
-&nbsp; - Malos inputs y exploits → cubiertos por `KnownBadInputs`.  
-
+  - SQL Injection → bloqueado por `AWSManagedRulesSQLiRuleSet`.  
+  - Cross-Site Scripting → bloqueado por `AWSManagedRulesCrossSiteScriptingRuleSet`.  
+  - Malos inputs y exploits → cubiertos por `KnownBadInputs`.  
 
 - 🤖 **Defensa contra bots y tráfico sospechoso**:  
-
-&nbsp; - Bloqueo de IPs maliciosas conocidas (IP Reputation).  
-
-&nbsp; - Bloqueo de proxies/tor (Anonymous IP List).  
-
-&nbsp; - CAPTCHA en `/login`, `/signup` y `/checkout` para frenar ataques de **credential stuffing** y fraude.  
-
+  - Bloqueo de IPs maliciosas conocidas (IP Reputation).  
+  - Bloqueo de proxies/tor (Anonymous IP List).  
+  - CAPTCHA en `/login`, `/signup` y `/checkout` para frenar ataques de **credential stuffing** y fraude.  
 
 - 🌐 **Alta disponibilidad**:  
-
-&nbsp; Al integrarse con **CloudFront**, el WAF protege tráfico a nivel global sin impacto en la latencia.  
-
+  Al integrarse con **CloudFront**, el WAF protege tráfico a nivel global sin impacto en la latencia.  
 
 - 📊 **Visibilidad y auditoría**:  
-
-&nbsp; Todos los eventos quedan registrados en **CloudWatch Logs**, con redacción de datos sensibles (`authorization`, `cookie`), alineado con **PCI-DSS**.  
-
+  Todos los eventos quedan registrados en **CloudWatch Logs**, con redacción de datos sensibles (`authorization`, `cookie`), alineado con **PCI-DSS**.  
 
 - 📈 **Cumplimiento normativo**:  
-
-&nbsp; La configuración refleja controles exigidos por **ISO 27001** (confidencialidad, integridad y disponibilidad) y **PCI-DSS** (protección de datos de tarjeta y usuarios).  
-
-
+  La configuración refleja controles exigidos por **ISO 27001** (confidencialidad, integridad y disponibilidad) y **PCI-DSS** (protección de datos de tarjeta y usuarios).  
 
 ---
 
 ## 🌟 Valor para la organización
-
-
 
 Un analista que implementa este WAF garantiza que el e-commerce:  
 - **Reduce el riesgo** de ataques que afectan ventas y reputación.  
 - **Cumple con estándares de seguridad** requeridos para manejar pagos.  
 - **Escala fácilmente** sin perder visibilidad ni control de seguridad.  
 
-
-
-
-
+Este proyecto demuestra experiencia en **Cloud Security, IaC y cumplimiento** aplicada a un caso real de negocio.
 
